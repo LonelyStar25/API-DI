@@ -1,9 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using PruebaCore.DTO;
-using PruebaDAL.Models;
-using System;
+﻿using PruebaCore.DTO;
 using System.Collections.Generic;
-using System.Text;
 
 namespace PruebaDAL.Repositories.Contracts
 {

@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PruebaAPI", "Prueba\PruebaA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PruebaCore", "PruebaCore\PruebaCore.csproj", "{BFB5384C-861D-4D0E-B25A-620E8A4FA8F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaBL", "PruebaBL\PruebaBL.csproj", "{CFC6D281-5D11-4E52-8394-1BDF4A8A16C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PruebaBL", "PruebaBL\PruebaBL.csproj", "{CFC6D281-5D11-4E52-8394-1BDF4A8A16C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaDAL", "PruebaDAL\PruebaDAL.csproj", "{DE924145-B30E-4FEC-BB4F-4B1E5D2BDFDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PruebaDAL", "PruebaDAL\PruebaDAL.csproj", "{DE924145-B30E-4FEC-BB4F-4B1E5D2BDFDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaIntegrationTests", "PruebaIntegrationTests\PruebaIntegrationTests.csproj", "{79741737-CF98-4FCF-AF5F-8742E0B09F65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{DE924145-B30E-4FEC-BB4F-4B1E5D2BDFDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE924145-B30E-4FEC-BB4F-4B1E5D2BDFDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE924145-B30E-4FEC-BB4F-4B1E5D2BDFDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79741737-CF98-4FCF-AF5F-8742E0B09F65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79741737-CF98-4FCF-AF5F-8742E0B09F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79741737-CF98-4FCF-AF5F-8742E0B09F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79741737-CF98-4FCF-AF5F-8742E0B09F65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

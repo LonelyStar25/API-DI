@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace PruebaCore.DTO
+﻿namespace PruebaCore.DTO
 {
     public class VentaDTO
     {

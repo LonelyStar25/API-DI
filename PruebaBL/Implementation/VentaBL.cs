@@ -1,11 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using PruebaBL.Contracts;
+﻿using PruebaBL.Contracts;
 using PruebaCore.DTO;
-using PruebaDAL.Models;
 using PruebaDAL.Repositories.Contracts;
-using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace PruebaBL.Implementation
 {

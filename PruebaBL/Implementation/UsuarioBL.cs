@@ -1,9 +1,6 @@
 ﻿using PruebaBL.Contracts;
 using PruebaCore.DTO;
 using PruebaDAL.Repositories.Contracts;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace PruebaBL.Implementation
 {
@@ -11,7 +8,8 @@ namespace PruebaBL.Implementation
     {
         public IUsuarioRepositorio _usuarioRepositorio { get; set; }
 
-        public UsuarioBL(IUsuarioRepositorio usu) {
+        public UsuarioBL(IUsuarioRepositorio usu)
+        {
             _usuarioRepositorio = usu;
         }
 

@@ -26,13 +26,6 @@ namespace Prueba
         {
             services.AddControllers();
 
-            //Inyecciones
-            services.AddDbContext<desarrollodeinterfacesContext>(opts => opts.UseMySql(Configuration["ConnectionString:desarrollodeinterfaces"]));
-            services.AddScoped<IUsuarioBL, UsuarioBL>();
-            services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
-            services.AddScoped<IVentaBL, VentaBL>();
-            services.AddScoped<IVentaRepositorio, VentaRepositorio>();
-
             //CORS
             services.AddCors(options =>
             {
@@ -41,6 +34,15 @@ namespace Prueba
                     .AllowAnyMethod()
                     .AllowAnyHeader());
             });
+
+            //Context
+            services.AddDbContext<desarrollodeinterfacesContext>(opts => opts.UseMySql(Configuration["ConnectionString:desarrollodeinterfaces"]));
+
+            //Inyecciones
+            services.AddScoped<IUsuarioBL, UsuarioBL>();
+            services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
+            services.AddScoped<IVentaBL, VentaBL>();
+            services.AddScoped<IVentaRepositorio, VentaRepositorio>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

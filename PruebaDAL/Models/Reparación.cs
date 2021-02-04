@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace PruebaDAL.Models
+﻿namespace PruebaDAL.Models
 {
     public partial class Reparación
     {
