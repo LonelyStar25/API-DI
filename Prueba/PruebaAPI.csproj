@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\PruebaBL\PruebaBL.csproj" />
     <ProjectReference Include="..\PruebaCore\PruebaCore.csproj" />
     <ProjectReference Include="..\PruebaDAL\PruebaDAL.csproj" />
